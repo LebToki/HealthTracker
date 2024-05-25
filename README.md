@@ -85,11 +85,16 @@ DB_NAME=healthtracker
 JWT_SECRET=your_jwt_secret
 Start the development server:
 
+```<npm>
 npm run dev
+```
+
 Open your browser and navigate to:
 
-arduino
-http://localhost:3000
+```<html>
+[npm run dev](http://localhost:3000)
+```
+
 
 ### Contributing
 Contributions are welcome! Please follow these steps:
