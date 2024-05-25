@@ -89,12 +89,14 @@ Start the development server:
 npm run dev
 ```
 
-Open your browser and navigate to:
+
 
 ```<html>
-[npm run dev](http://localhost:3000)
+[npm run dev]
 ```
 
+Open your browser and navigate to: 
+(http://localhost:3000)
 
 ### Contributing
 Contributions are welcome! Please follow these steps:
