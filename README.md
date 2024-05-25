@@ -3,32 +3,31 @@ HealthTracker
 HealthTracker is a comprehensive personal health monitoring application designed to help users track their health metrics, set wellness goals, and receive personalized health insights. Integrating with wearable devices and smartphones, HealthTracker provides real-time data collection and analysis to support a healthier lifestyle.
 
 ### Features
-User Authentication
-
+**User Authentication**
 Secure user login and registration system
 OAuth integration for social media logins (Google, Facebook)
-Health Metrics Tracking
 
+**Health Metrics Tracking**
 Track daily steps, heart rate, sleep patterns, and calorie intake
 Integration with popular wearable devices (e.g., Fitbit, Apple Watch) and smartphones
-Dashboard
 
+**Dashboard**
 Intuitive and interactive dashboard displaying health metrics
 Data visualization through charts and graphs (daily, weekly, monthly trends)
-Goal Setting and Reminders
 
+**Goal Setting and Reminders**
 Set personal health goals (e.g., step count, water intake)
 Receive reminders and notifications to encourage goal completion
-Personalized Insights
 
+**Personalized Insights**
 Personalized health insights and tips based on tracked data
 Lifestyle change suggestions to improve health
-Data Privacy and Security
 
+**Data Privacy and Security**
 Secure data storage and privacy maintenance
 User control over data sharing preferences
-Health Reports
 
+**Health Reports**
 Generate detailed health reports to share with healthcare providers
 Export data in various formats (PDF, CSV)
 
@@ -37,27 +36,31 @@ Export data in various formats (PDF, CSV)
 Community section for joining health challenges
 Social interaction and competition for motivation
 Technical Stack
-Frontend:
 
+**Frontend:**
 Framework: React or Vue.js
 UI Library: Material-UI or Vuetify
 Data Visualization: Chart.js or D3.js
-Backend:
+
+**Backend:**
 
 Framework: Node.js with Express or Django
 Database: MongoDB or PostgreSQL
 Authentication: JWT (JSON Web Tokens)
 
-Integration:
+**Integration:**
 
 Wearable Device APIs (Fitbit, Apple HealthKit)
 Push Notifications (Firebase Cloud Messaging)
-DevOps:
+
+**DevOps:**
 
 Containerization: Docker
 CI/CD: GitHub Actions or CircleCI
-Getting Started
-Prerequisites
+
+### Getting Started
+
+**Prerequisites**
 Node.js and npm installed
 MongoDB or PostgreSQL database
 Docker (for containerization)
@@ -68,9 +71,11 @@ Clone the repository:
 git clone https://github.com/yourusername/healthtracker.git
 cd healthtracker
 Install dependencies:
-
+```<npm>
 npm install
-Set up environment variables:
+```
+
+**Set up environment variables:**
 
 Create a .env file in the root directory and add the necessary environment variables:
 DB_HOST=your_database_host
