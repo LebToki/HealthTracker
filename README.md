@@ -68,9 +68,12 @@ Docker (for containerization)
 ### Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/healthtracker.git
+```<sh>
+git clone https://github.com/LebToki/HealthTracker
 cd healthtracker
+```
 Install dependencies:
+
 ```<npm>
 npm install
 ```
@@ -78,11 +81,14 @@ npm install
 **Set up environment variables:**
 
 Create a .env file in the root directory and add the necessary environment variables:
+```<env>
 DB_HOST=your_database_host
 DB_USER=your_database_user
 DB_PASS=your_database_password
 DB_NAME=healthtracker
 JWT_SECRET=your_jwt_secret
+```
+
 Start the development server:
 
 ```<npm>
@@ -90,7 +96,10 @@ npm run dev
 ```
 
 Open your browser and navigate to: 
+
+```<browser>
 (http://localhost:3000)
+```
 
 ### Contributing
 Contributions are welcome! Please follow these steps:
