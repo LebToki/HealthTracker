@@ -117,5 +117,7 @@ This project is licensed under the GNU 3 License. See the LICENSE file for detai
 For questions or feedback, please reach out to:
 
 Tarek Tarabichi
+
 Email: ttarabichi[@]gmail.com
+
 LinkedIn: https://www.linkedin.com/in/tarektarabichi
